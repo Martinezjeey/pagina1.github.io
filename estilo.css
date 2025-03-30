@@ -1,0 +1,108 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(166, 172, 226);
+}
+
+.encabezado {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(154, 154, 212, 1) 46%, rgba(0, 212, 255, 1) 100%);
+    text-align: center;
+    display: inline-flexbox;
+    padding: 2%;
+    background-size: contain;
+    width: 100%;
+    font-size: 150%;
+}
+
+.encabezado:hover {
+    background-image: url('p.gif');
+    background-size: cover;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 8rem;
+}
+
+.nav {
+    background-color: black;
+    padding: 1%;
+    width: 102%;
+    background-size: contain;
+}
+
+.menu li a {
+    color: white;
+    font-size: large;
+}
+
+.contenedor {
+    display: flex;
+    padding: 40px;
+    gap: 30rem;
+    text-align: right;
+}
+
+.i {
+    width: 10cm;
+    height: 15cm;
+}
+
+.p {
+    text-align: center;
+    font-size: 200%;
+}
+
+.sub1 {
+    text-align: center;
+    width: 10cm;
+}
+
+.i1 {
+    width: 5cm;
+    height: 5cm;
+}
+
+.i2 {
+    width: 5cm;
+    height: 5cm;
+}
+
+.i3 {
+    width: 5cm;
+    height: 5cm;
+}
+
+.imagenes {
+    display: flex;
+    padding: 30px;
+    gap: 5rem;
+}
+
+.tit {
+    display: flex;
+    padding: 0px;
+    gap: 12.5rem;
+    margin-left: 2cm;
+}
+
+.texto {
+    font-size: 200%;
+    padding: 60px;
+}
+
+.l {
+    width: 20cm;
+}
+
+.pie {
+    background-color: black;
+    color: white;
+}
